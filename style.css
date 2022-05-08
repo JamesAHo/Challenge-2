@@ -100,7 +100,7 @@ html {
 }
 .introduction {
    font-family:century ;
-   font-size: 70px;
+   font-size: 75px;
    font-weight: bold;
    color:white;
    text-align: center;
@@ -185,19 +185,23 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 .row {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .service-box {
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 450px;
+    height: 400px;
     border:1px solid rgb(81, 81, 135);
     margin: 10px;
     align-items: center;
@@ -228,7 +232,104 @@ html {
     align-items: center;
     background-color: white;
 }
+/* Responsive for tablet */
+@media only screen and (max-width: 800px) {
+    .intro .introduce {
+        margin-left: 200px;
+        
+       
+    }
+    #picture {
+        flex-direction: column;
+        align-items: center;
+    }
+    #picture img {
+        width: 300px;
+        height: 300px;
+    }
+   #service {
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: space-between;
+       text-align: center;
+      
+   }
+   .service-box {
+       width: 100px;
+       height: 200px;
+       flex-direction: wrap;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
 
+   }
+   .service-box .headline {
+       text-align: center;
+    
+   }
+   .footer {
+       font-size:0.7rem ;
+   }
+}
+/*Responsive for Phone */
+@media only screen and (max-width: 530px) {
+    #home {
+        height: 719px;
+    }
+    .headline {
+        font-size: 1.7rem;
+    }
+    .portfolio-list img {
+        width: 275px;
+        height: 200px;
+        
+        border-radius: 30px;
+        
+    }
+    .Nav-bar {
+        display: flex;
+    }
+    .Nav-bar ul li {
+        font-size: 1rem;
+        font-weight: bold;
+        font-family:Courier New, monospace ;
+        transition: all 0.4s ease-in-out;
+    }
+    .introduction {
+        font-family:century ;
+        font-size: 25px;
+        font-weight: bold;
+        color:white;
+        text-align: center;
+        margin: 30px 0;
+     }
+     #service {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+     }
+     .row {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+     .service-box {
+        width: 250px;
+        height: 250px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+ 
+    }
+
+    
+}
 
 
 
