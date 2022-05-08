@@ -191,7 +191,7 @@ html {
 }
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     box-sizing: border-box;
     flex-wrap: wrap;
     align-items: center;
