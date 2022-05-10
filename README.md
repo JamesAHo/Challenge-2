@@ -22,8 +22,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![Alt text](/Challenge-2/imgs/project2.jpg?raw=true "Screenshot')
 
 
 
 
+
+![project2](https://user-images.githubusercontent.com/90822220/167719458-d44e4fe8-e6ce-47f6-b8c0-f2a5d770c0d7.jpg)
